@@ -3,6 +3,7 @@ import platform
 
 from setuptools import Extension, setup
 
+
 UNIX_CXXFLAGS = [
     "-std=c++17",
     "-mavx2",
