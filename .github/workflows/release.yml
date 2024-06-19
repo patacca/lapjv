@@ -61,6 +61,8 @@ jobs:
   publish:
     needs: [build-sdist, build-wheels]
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
 
     steps:
     - uses: actions/checkout@v3
@@ -74,7 +76,4 @@ jobs:
         ls -al dist/
 
     - name: Upload to PyPI
-      uses: pypa/gh-action-pypi-publish@master
-      with:
-        user: __token__
-        password: ${{ secrets.PYPI_API_TOKEN }}
+      uses: pypa/gh-action-pypi-publish@release/v1
