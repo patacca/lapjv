@@ -46,7 +46,7 @@ setup(
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="1.3.24",
+    version="1.3.25",
     license="MIT",
     author="Vadim Markovtsev",
     author_email="gmarkhor@gmail.com",
