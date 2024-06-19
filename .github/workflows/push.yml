@@ -91,7 +91,7 @@ jobs:
       with:
         current_version: "${{ env.current_version }}"
         files: setup.py
-        commit_name: Vadim Markovtsev
-        commit_email: gmarkhor@gmail.com
-        login: vmarkovtsev
+        commit_name: Riccardo Mori
+        commit_email: patacca@autistici.org
+        login: patacca
         token: "${{ secrets.BUMP_VERSION_TOKEN }}"
