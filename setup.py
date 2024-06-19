@@ -38,8 +38,8 @@ class get_numpy_include:
 
 
 setup(
-    name="lapjv",
-    description="Linear sum assignment problem solver using Jonker-Volgenant algorithm.",
+    name="lapjv-numpy2",
+    description="Linear sum assignment problem solver using Jonker-Volgenant algorithm. Fork to support numpy 2.x",
     long_description=long_description,
     long_description_content_type="text/markdown",
     version="1.3.24",
